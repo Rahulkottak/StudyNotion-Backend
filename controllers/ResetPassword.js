@@ -33,7 +33,8 @@ exports.resetPasswordToken = async (req, res) => {
         //link generation...
         //create url
         // const url = `http://localhost:3000/update-password/${token}`;
-        const url = `https://studynotion-edtech-rk.netlify.app/update-password/${token}`;
+        const url = `https://studynotion-edtech-platform-zeta.vercel.app/update-password/${token}`;
+        // const url = `https://studynotion-edtech-rk.netlify.app/update-password/${token}`;
 
         //sending... mail
         await mailSender(email, 
